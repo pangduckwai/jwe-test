@@ -1,0 +1,34 @@
+[
+  {
+    "JWS header": {
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "JWS payload": {
+      "jti": "2975dd35-6baa-47bc-9c29-be547b0b4cf8",
+      "iat": 1742955361,
+      "aud": "JWTest",
+      "issueTime": "2025-03-26T10:16:01.418",
+      "issuer": "CDI-PUSH-001",
+      "Payload": {
+        "type": "Consent",
+        "id": "37ce697c-83cd-4e67-8e78-2cc00b76cbe2",
+        "status": "ConsentSubmitted",
+        "updateTime": {
+          "t": 1742955361,
+          "humanT": "2025-03-26 10:16:01"
+        }
+      }
+    }
+  },
+  {
+    "JWE header": {
+      "alg": "RSA-OAEP-256",
+      "enc": "A128CBC-HS256"
+    },
+    "JWE encrypted key": "tDPlPy1i_jYX94KSY1bK4eCR2NHKpt_GglYYyUsWh6JeHDCOqXdKPtlh589Bb0aOnExwkExDGTxRWkPMIEZ_0pH2c2EzmObPktRNhk8UIjmZL8UHHBy6ES7ULZuEmRQZgztnmWWyaSmGHBM8N1C94nWjHlcZdiew9vXPQ04k3ZcaV320qdF2faZa1yhEZi4HuUG3yoVyGnv64kHBLj6VqkyH_fbXo0Zd-fMwJSPBo8KshyUDsqUkQagvxtDQwbJTSmi1HYmeoopNTB52qYDXrPKl8w-JZ2Drd-RAN1cBxykF5Vk2h4voiQUttezJmIWIEzFp56YYKi7ft1ryJOgVdA",
+    "JWE initialization vector": "0dBLI8JYOU0NZjV6svjFzQ",
+    "JWE ciphertext": "333brwPJx0zMOuhToe_YEV0qwaBB7U6KgvO40UKYKBBYI3HOQnkcdKeCcXleasvymNN-0qpaVN95YjEYs3US8tQzLxGpaAlMJxx9b7N6K7nIhxvvqH2w4I1xsu_RaKbQQBJAnXCrK7ChwmiikqyXYRBoIqOKhE9IJNYq5pgu4WkkoExdZkrelDxOYhGPNL6J5o5S3UVRpBh4-spsOk7Vx-Ugq5htbSOTj22nJSWVzWhyZaK5H6oaQzw_E_ecxgw4TnWMB8ClPgIspAI7zTwOvyLaHPLiDuwP_f92abq2MQWa-i-0hcMWtKxGRZk9IlKaUfLX2M6g2EDIJsirN_7cr16KuSZDdN9ZnPgacjn0rNnxiqwYzwpJmZE4KmHuz_KWnZhI1cl1FwvCXb76Hbo1g4-UEWgt-seSTdRHWjB-biq99U-y6Zr4USHkRL00x5dd-kMxfhrXV3dltHcocOR0HBMe96sERpJdxs4iHP95T5idPEPAMa5npZyY5xmyhkKr9_uvqdLYOy0x00QTWR6-l6SdVWWfCfVCKfjNNZ08FwDQcyTgp-Jeev72hmc4QSW8TGPn4qehX7bbMRIDVylhxh-JDJCv6TdBeb9kOF4L19jeYd8ixvj41JLGzI5_Ht8f2WA20BP9mnyWLAkbYt4kz7fswLIE8-rWpd7yfPwPPAPW-2JLU0hJYK_MpS23rLN7Y-XZ7T49pYtmWg738D1-dMjHvmR5Co_bgK_fQGfDItsI9r4FqRKPpPWVSZ_1_Hls1YZvwpOL1YoilXyuPXb_dgG2vsAnFWXb1HqNNQQ-JS1qO5T6nAHnObWi7sW4NtG0OFMAGWHffPDfQSfEoJnFeWkC_rR2aT-_L6te-tiKpxMyZOrvXJvYiRFsndFZqD3yaNVCHzjGrC5KxmqGxEWaJ0MehyCKAEG_EWzWclzEO2tiTCagv_MEVF2-Difg0trvD7_YrFfDoTNvOnItAvyMcVQjVnMJzm_2alJleX9xP-sWropFG20pniH6bQT0WqpAN7rhq_gZiGdKdqVzIxMBgg",
+    "JWE authentication tag": "BW2X8vGWLwEEx_xclfWvvQ"
+  }
+]
